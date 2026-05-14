@@ -1,0 +1,78 @@
+.page-home {
+  scroll-margin-top: 72px;
+  padding: 3rem 1.5rem 3.5rem;
+  background: linear-gradient(165deg, #f8f9fb 0%, #eef0f5 100%);
+  border-bottom: 1px solid #e8eaef;
+}
+
+.home-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6c63ff;
+  margin-bottom: 0.5rem;
+}
+
+.home-title {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #111;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.home-role {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.home-lede {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  max-width: 52ch;
+  margin-bottom: 1.5rem;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.home-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.home-btn-primary {
+  background: #6c63ff;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(108, 99, 255, 0.35);
+}
+
+.home-btn-primary:hover {
+  background: #5a52e8;
+}
+
+.home-btn-ghost {
+  background: #fff;
+  color: #333;
+  border: 1px solid #e0e2e8;
+}
+
+.home-btn-ghost:hover {
+  border-color: #6c63ff;
+  color: #6c63ff;
+}
